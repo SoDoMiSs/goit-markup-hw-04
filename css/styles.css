@@ -128,9 +128,7 @@ clip-path: inset(100%);
 /*------------- header nav ------------*/
 
 header {
-    max-width: 1440px;
-      margin-right: auto;
-          margin-left: auto;
+
          border-bottom: 1px solid#E7E9FC;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
@@ -196,9 +194,10 @@ margin-right: 76px;
 /* --------------section hero------------ */
 
 .hero {
-      max-width: 1440px;
-      margin-right: auto; 
-      margin-left: auto;
+max-width: 1440px;
+height: 600px;
+margin-right: auto;
+margin-left: auto;
     padding-top: 188px;
     padding-bottom: 188px;
     border: 1px solid #000000;
@@ -344,9 +343,6 @@ padding-bottom: 120px;
 /*------------ Team ---------------------*/
 
 .team {
-          max-width: 1440px;
-      margin-right: auto; 
-      margin-left: auto;
     padding-top: 120px;
         padding-bottom: 120px;
     background-color: var(--light-bgc-color);
@@ -454,9 +450,9 @@ fill: currentColor;
     align-items: center;
     width: 168px;
     height: 88px;
-    border: 1px solid rgba(142, 143, 153, 1);
+    border: 1px solid currentColor;
     border-radius: 4px;
-    color: rgba(142, 143, 153, 1);
+    color: #8E8F99;
 }
 .customers-icon {
 fill: currentColor;
@@ -464,32 +460,13 @@ fill: currentColor;
 
 .customers-link:focus,
 .customers-link:hover {
-    border-color:  rgba(64, 75, 191, 1);
-    color: rgba(64, 75, 191, 1);
+    color: var(--hover-color);
 }
-
-
-/* .customer1 {
-    width: 168px;
-    height: 88px;
-    padding: 16px 32px;
-    border: 1px solid rgba(142, 143, 153, 1);
-    border-radius: 4px;
-    background-image: url(../images/icons/Logo.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-
-} */
-
-
 
 
 /* -------------Footer------------- */
 
 footer {
-        max-width: 1440px;
-      margin-right: auto; 
-      margin-left: auto;
     padding: 100px 0px;
     background-color: var(--title-text-color);
 }
@@ -521,14 +498,11 @@ footer {
 
 
 .social-title {
-    display: flex;
-    align-items: center;
-    height: 24px;
     margin-bottom: 16px;
     color: var(--light-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
 }
 
 .footer-socials {
@@ -612,7 +586,7 @@ border-top: none;
 .portfolio-link {
     display: block;
     color: inherit;
-    
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
